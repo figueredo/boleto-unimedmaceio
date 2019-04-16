@@ -1,0 +1,27 @@
+{
+  "name": "boleto-unimedmaceio",
+  "version": "1.0.0",
+  "description": "Downloads Unimed Maceió bank slips",
+  "main": "./build/index.js",
+  "author": "Thiago Cardoso <thiago@figueredo.co>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "babel src --out-dir build",
+    "start": "node build",
+    "start:watch": "nodemon --exec babel-node src",
+    "start:debug": "babel-node debug src"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-babel-module": "^5.0.1",
+    "eslint-plugin-import": "^2.17.1",
+    "nodemon": "^1.18.11"
+  }
+}
