@@ -23,5 +23,12 @@
     "eslint-import-resolver-babel-module": "^5.0.1",
     "eslint-plugin-import": "^2.17.1",
     "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.11",
+    "qs": "^6.7.0",
+    "yargs": "^13.2.2"
   }
 }
